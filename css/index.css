@@ -86,7 +86,11 @@ nav a{
 
 .stratHww {
 display:flex;
-justify-content: space-evenly;
+justify-content: flex-start;
+
+}
+.stratRow{
+    display:flex;
 }
 
 .container {
