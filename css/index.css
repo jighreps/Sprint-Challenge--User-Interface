@@ -84,15 +84,28 @@ nav a{
     color: grey;
 }
 
-.stratHww {
-display:flex;
-justify-content: flex-start;
-
-}
-.stratRow{
+.about, h3, p {
     display:flex;
+    justify-content: flex-end;
+    
 }
 
+.section{
+    display:flex;
+    justify-content: space-between;
+    
+    padding-left:29%;
+    max-width: 45%; */
+}
+ /* .secOneSub{
+    display:flex;
+    flex-wrap: wrap;
+} */
+
+/* .btn{
+    display:flex;
+    
+}  */
 .container {
     width: 800px;
     margin: 0 auto;
