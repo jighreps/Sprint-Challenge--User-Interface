@@ -303,3 +303,10 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* CSS About page start here */
+.about{
+    background-color: lightblue;
+    width: 800px;
+    padding: 10px;
+    margin-left: 275px;
+}
