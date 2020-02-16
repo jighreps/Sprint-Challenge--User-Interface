@@ -292,11 +292,13 @@ footer nav a {
     text-decoration: none;
 }
 /* CSS About page start here */
+
 .about{
-    background-color: lightblue;
+    
     width: 800px;
     padding: 10px;
     margin-left: 305px;
+    margin-bottom: 1px;
     display:flex;
     flex-direction: column;
 
@@ -316,20 +318,62 @@ hr {
 
 .section{
     display:flex;
-    justify-content: space-between;
     width:800px;
     flex-direction: row;
-    margin: 0px 200px 0px 300px;
-    background-color: red;
+    margin: 20px 200px 100px 300px;
+    justify-content: space-around;
+  
       
 }
 
 .strategyDiv {
     display:flex;
     flex-direction: column;
+    padding: 20px 20px;
 }
 
 .howWeWork {
     display:flex;
     flex-direction: column;
+    padding: 20px 20px;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.stratText {
+    padding: 5px;
+}
+
+.weWork {
+    padding: 5px;
+}
+
+.btn {
+    margin-top: 10px;
+    border-radius: 3px; 
+}
+
+.btn2 {
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.endDiv {
+    width: 800px;
+    
+    
+    
+    margin: 50px 150px 50px 300px;
+}
+
+footer {
+    width:800px;
+    margin:50px 150px 0px 300px;
+}
+
+footer nav {
+    height: 70px; 
+    padding-bottom: 50px;
 }
