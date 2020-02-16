@@ -71,17 +71,20 @@ p {
     display:flex;
     justify-content: center;
     
+    
     }
   
 .jumbo{
     display:flex;
     justify-content: center;
+    
 }
 
 nav a{
     text-decoration: none;
     padding: 40px;
     color: grey;
+  
 }
 
 
@@ -297,16 +300,19 @@ footer nav a {
     
     width: 800px;
     padding: 10px;
-    margin-left: 305px;
+    margin-left: 550px;
     margin-bottom: 1px;
     display:flex;
     flex-direction: column;
+    
 
 }
 
 hr {
     width: 800px;
-    border: 1px dashed black;
+    border: 1px dashed black; 
+    
+    
 }
 
 .titleAbout {
@@ -315,6 +321,11 @@ hr {
 
 }
 
+header{
+    display:flex;
+    justify-content: center;
+    /* margin-right: 500px; */
+}
 
 .section{
     display:flex;
@@ -329,7 +340,8 @@ hr {
 .strategyDiv {
     display:flex;
     flex-direction: column;
-    padding: 20px 20px;
+     padding: 20px 20px; 
+    margin-left: 520px;
 }
 
 .howWeWork {
@@ -337,6 +349,9 @@ hr {
     flex-direction: column;
     padding: 20px 20px;
 }
+/* .bigContain {
+    margin-left: 500px;
+} */
 
 h3 {
     font-weight: bold;
@@ -361,16 +376,13 @@ h3 {
 }
 
 .endDiv {
-    width: 800px;
-    
-    
-    
-    margin: 50px 150px 50px 300px;
+    width: 800px;   
+    margin: 50px 150px 50px 550px;
 }
 
 footer {
     width:800px;
-    margin:50px 150px 0px 300px;
+    margin:50px 150px 0px 550px;
 }
 
 footer nav {
