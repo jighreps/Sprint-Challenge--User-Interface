@@ -84,19 +84,7 @@ nav a{
     color: grey;
 }
 
-.about, h3, p {
-    display:flex;
-    justify-content: flex-end;
-    
-}
 
-.section{
-    display:flex;
-    justify-content: space-between;
-    
-    padding-left:29%;
-    max-width: 45%; */
-}
  /* .secOneSub{
     display:flex;
     flex-wrap: wrap;
@@ -308,7 +296,7 @@ footer nav a {
     background-color: lightblue;
     width: 800px;
     padding: 10px;
-    margin-left: 275px;
+    margin-left: 305px;
     display:flex;
     flex-direction: column;
 
@@ -323,4 +311,25 @@ hr {
     display:flex;
     justify-content: flex-start;
 
+}
+
+
+.section{
+    display:flex;
+    justify-content: space-between;
+    width:800px;
+    flex-direction: row;
+    margin: 0px 200px 0px 300px;
+    background-color: red;
+      
+}
+
+.strategyDiv {
+    display:flex;
+    flex-direction: column;
+}
+
+.howWeWork {
+    display:flex;
+    flex-direction: column;
 }
