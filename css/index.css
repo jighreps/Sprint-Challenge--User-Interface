@@ -309,4 +309,18 @@ footer nav a {
     width: 800px;
     padding: 10px;
     margin-left: 275px;
+    display:flex;
+    flex-direction: column;
+
+}
+
+hr {
+    width: 800px;
+    border: 1px dashed black;
+}
+
+.titleAbout {
+    display:flex;
+    justify-content: flex-start;
+
 }
